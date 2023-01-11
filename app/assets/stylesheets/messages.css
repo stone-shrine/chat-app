@@ -2,6 +2,11 @@
   display: flex;
 }
 
+
+/* ----------------------------------------
+      _side_bar
+---------------------------------------- */
+
 .side-bar{
   height: 100vh;
   width: 300px;
@@ -12,6 +17,25 @@
   height: 100px;
   width: 100%;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.user-name{
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.create-room{
+  font-size: 10px;
+  color: deepskyblue;
+  border: solid 1px lightblue;
+  padding: 14px;
 }
 
 .chat-rooms{
@@ -19,7 +43,22 @@
   height: calc(100vh - 100px);
   width: 100%;
   padding: 0 20px;
+  overflow: scroll;
 }
+
+.rooms-list{
+  padding: 20px 0 40px;
+}
+
+.chat-room{
+  color: white;
+}
+
+
+
+/* ----------------------------------------
+      _main_chat
+---------------------------------------- */
 
 .main-chat{
   height: 100vh;
