@@ -70,6 +70,24 @@ a{
   height: 100px;
   width: 100%;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.exit-btn{
+  margin-top: 40px;
+}
+
+.exit-btn a{
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
 }
 
 .main-display{
@@ -77,6 +95,35 @@ a{
   height: calc(100% - 100px - 90px);
   width: 100%;
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message{
+  margin:10px 0 40px;
+}
+
+.upper-message{
+  display: flex;
+}
+
+.sender{
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+
+.send-date{
+  font-size: 12px;
+  color: #999;
+}
+
+.lower-message{
+  margin-top: 10px;
+}
+
+.message-content{
+  font-size: 14px;
+  color: #434a54;
 }
 
 .main-footer{
@@ -84,4 +131,42 @@ a{
   height: 90px;
   width: 100%;
   padding: 20px 40px;
+  display: flex;
+}
+
+.message-form{
+  background-color: white;
+  margin-right: 15px;
+  width: 100%;
+  display: flex;
+}
+
+.input-text{
+  height: 50px;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.send-btn{
+  background-color: #38aef0;
+  border: none;
+  font-size: 16px;
+  color: white;
+  height: 50px;
+  padding: 0 20px;
 }
