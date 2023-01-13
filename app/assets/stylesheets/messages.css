@@ -32,7 +32,8 @@ a{
   color: #fafafa;
 }
 
-.create-room{
+.create-room a{
+  text-decoration: none;
   font-size: 10px;
   color: deepskyblue;
   border: solid 1px lightblue;
